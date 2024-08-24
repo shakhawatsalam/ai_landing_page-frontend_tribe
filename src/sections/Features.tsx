@@ -44,7 +44,7 @@ export const Features = () => {
           {tabs.map((tab) => (
             <div
               key={tab.title}
-              className='border border-white/15 flex p-2.5 rounded-xl gap-2.5 items-center lg:flex-1'>
+              className='border border-white/15 flex p-2.5 rounded-xl gap-2.5 items-center lg:flex-1 cursor-pointer'>
               <div className='h-12 w-12 border border-white/15 rounded-lg inline-flex justify-center items-center'>
                 <DotLottiePlayer src={tab.icon} className='h-5 w-5' autoplay />
               </div>
