@@ -33,7 +33,7 @@ const useRelativeMousePosition = (to: RefObject<HTMLElement>) => {
 };
 export const CallToAction = () => {
   const sectionRef = useRef<HTMLElement>(null);
-  const borderDivRef = useRef<HTMLDivElement>(null);
+   const borderDivRef = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: sectionRef,
     offset: ["start end", "end start"],
